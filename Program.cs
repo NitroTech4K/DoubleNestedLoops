@@ -28,9 +28,9 @@ namespace DoubleNestedLoops
 
             int numBase = 2;  //how many digits
 
-            for (int i = 0; i <= 9; i++)
+            for (int i = 0; i <= 9; i++) //i++ = (i = i + 1)
             {
-                for (int j = 0; j <= 9; j++)
+                for (int j = 0; j <= 9; j++) 
                 {
                     for (int k = 0; k <= 9; k++)
                     {
