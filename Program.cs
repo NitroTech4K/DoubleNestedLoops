@@ -28,14 +28,11 @@ namespace DoubleNestedLoops
 
             int numBase = 2;  //how many digits
 
-            for (int i = 0; i <= 9; i++) //i++ = (i = i + 1)
+            for (int i = 0; i <= 9; i++) //i++ = (i = i + 1) //And finally this line.
             {
-                for (int j = 0; j <= 9; j++) 
+                for (int j = 0; j <= 9; j++) //Then goes up to this loop
                 {
-                    for (int k = 0; k <= 9; k++)
-                    {
-                        Console.WriteLine(i + "" + j + "" + k);
-                    }
+                    Console.WriteLine(i + "" + j + "");
                 }
             }
 
